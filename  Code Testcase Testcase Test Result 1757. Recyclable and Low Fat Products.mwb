@@ -1,0 +1,6 @@
+SELECT product_id
+FROM products
+WHERE low_fats = 'Y' AND recyclable = 'Y';
+
+-- from a given table we choose product_id whose two col
+--  where low_fact and recyclable is yes ('Y') 
